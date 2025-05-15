@@ -1,7 +1,8 @@
 {
   "Titel": "Wurst- und Schinken-Auswahl",
-  "Untertitel": "mit Frikadellen und Fleischsalat",
+  "Untertitel": "Rindermettwurst, Katenschinken, Frikadellen, Braten, Fleischsalat",
   "Allergene": "Enth.: Ei, Milch, Senf, Rind, Schwein",
   "Kennzeichen": "BIO",
-  "Vegan": ""
+  "Vegan": "",
+  "Font_Untertitel": "fonts/calibrib16"
 }

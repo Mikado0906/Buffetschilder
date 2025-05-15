@@ -1,7 +1,8 @@
 {
   "Titel": "Käse-Auswahl",
-  "Untertitel": "Blauschimmel-Ziegenkäse, Kräuterkäse, Scamorzetti, Gouda pikant",
+  "Untertitel": "Blaue Stunde, Le Maître Provence, Scamorzetti, pikanter Gouda",
   "Allergene": "Enth.: Gluten (Gerste, Dinkel), Milch, Senf, Schalenfrüchte (Walnuss), Sesam",
   "Kennzeichen": "BIO",
-  "Vegan": ""
+  "Vegan": "",
+  "Font_Untertitel": "fonts/calibrib16"
 }

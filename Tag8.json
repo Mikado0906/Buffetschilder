@@ -3,5 +3,6 @@
   "Untertitel": "",
   "Allergene": "Enth.: Gluten (Weizen), Milch, Soja, Sellerie, Schalenfrüchte (Mandeln), Sesam, Schwefeldioxid/Sulfite",
   "Kennzeichen": "BIO",
-  "Vegan": "/vegan.jpg"
+  "Vegan": "/vegan.jpg",
+  "Font_Untertitel": "fonts/bahnschrift20"
 }

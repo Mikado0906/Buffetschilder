@@ -1,7 +1,8 @@
 {
   "Titel": "Dreierlei Antipasti",
-  "Untertitel": "Champignons*, Karotten*, Schalotten",
+  "Untertitel": "Zitronen-Thymian Champignons*, Ingwer-Karotten*, Balsamico-Honig Schalotten",
   "Allergene": "Enth.: Milch, Schwefeldioxid/Sulfite",
   "Kennzeichen": "BIO",
-  "Vegan": "/vegan.jpg"
+  "Vegan": "/vegan.jpg",
+  "Font_Untertitel": "fonts/calibrib16"
 }

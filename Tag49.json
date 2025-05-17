@@ -1,8 +1,8 @@
 {
   "Titel": "Mini-Sandwich",
-  "Untertitel": "Gurke & Kresse",
-  "Allergene": "Enth.: Gluten (Gerste, Weizen), Soja",
+  "Untertitel": "Radieschen & Kresse",
+  "Allergene": "Enth.: Gluten (Gerste, Weizen), Milch",
   "Kennzeichen": "BIO",
-  "Vegan": "/vegan.jpg",
+  "Vegan": "",
   "Font_Untertitel": "fonts/bahnschrift20"
 }

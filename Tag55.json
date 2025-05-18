@@ -1,8 +1,66 @@
-{
-  "Titel": "Mojo Rojo",
-  "Untertitel": "Achtung - scharf!",
-  "Allergene": "Enth.: Gluten (Weizen)",
-  "Kennzeichen": "BIO",
-  "Vegan": "/vegan.jpg",
-  "Font_Untertitel": "fonts/bahnschrift20"
-}
+[
+  {
+    "textbox": [
+      5,
+      10,
+      286,
+      50,
+      "Mojo Rojo",
+      "fonts/calibrib30",
+      1,
+      1
+    ]
+  },
+  {
+    "textbox": [
+      5,
+      70,
+      286,
+      45,
+      "Achtung - scharf!",
+      "fonts/bahnschrift20",
+      1,
+      1.1
+    ]
+  },
+  {
+    "line": [
+      0,
+      115,
+      296,
+      115,
+      5
+    ]
+  },
+  {
+    "textbox": [
+      5,
+      120,
+      210,
+      45,
+      "Enth.: Gluten (Weizen)",
+      "fonts/tahoma11",
+      2,
+      1
+    ]
+  },
+  {
+    "image": [
+      "BIO",
+      205,
+      120
+    ]
+  },
+  {
+    "textbox": [
+      240,
+      122,
+      100,
+      50,
+      "/vegan.jpg",
+      "fonts/calibrib30",
+      1,
+      1
+    ]
+  }
+]

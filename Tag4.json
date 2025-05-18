@@ -5,7 +5,7 @@
       10,
       286,
       50,
-      "Tag4",
+      "Gewürzreis",
       "fonts/calibrib30",
       1,
       1
@@ -46,7 +46,7 @@
   },
   {
     "image": [
-      "",
+      "/vegan.jpg",
       205,
       120
     ]
@@ -57,7 +57,7 @@
       122,
       100,
       50,
-      "",
+      "BIO",
       "fonts/calibrib30",
       1,
       1

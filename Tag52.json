@@ -5,7 +5,7 @@
       10,
       286,
       50,
-      "Mojo Verde",
+      "Tag52",
       "fonts/calibrib30",
       1,
       1
@@ -38,7 +38,7 @@
       120,
       210,
       45,
-      "Enth.: Gluten (Weizen)",
+      "",
       "fonts/tahoma11",
       2,
       1
@@ -46,7 +46,7 @@
   },
   {
     "image": [
-      "/vegan.jpg",
+      "",
       205,
       120
     ]
@@ -57,7 +57,7 @@
       122,
       100,
       50,
-      "BIO",
+      "",
       "fonts/calibrib30",
       1,
       1

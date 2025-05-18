@@ -46,7 +46,7 @@
   },
   {
     "image": [
-      "BIO",
+      "/vegan.jpg",
       205,
       120
     ]
@@ -57,7 +57,7 @@
       122,
       100,
       50,
-      "/vegan.jpg",
+      "BIO",
       "fonts/calibrib30",
       1,
       1

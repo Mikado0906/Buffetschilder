@@ -1,8 +1,66 @@
-{
-  "Titel": "Wrap",
-  "Untertitel": "mit Falafel und Hummus",
-  "Allergene": "Enth.: Gluten (Weizen), Soja, Sesam",
-  "Kennzeichen": "BIO",
-  "Vegan": "/vegan.jpg",
-  "Font_Untertitel": "fonts/bahnschrift20"
-}
+[
+  {
+    "textbox": [
+      5,
+      10,
+      286,
+      50,
+      "Wrap",
+      "fonts/calibrib30",
+      1,
+      1
+    ]
+  },
+  {
+    "textbox": [
+      5,
+      70,
+      286,
+      45,
+      "mit Falafel und Hummus",
+      "fonts/bahnschrift20",
+      1,
+      1.1
+    ]
+  },
+  {
+    "line": [
+      0,
+      115,
+      296,
+      115,
+      5
+    ]
+  },
+  {
+    "textbox": [
+      5,
+      120,
+      210,
+      45,
+      "Enth.: Gluten (Weizen), Soja, Sesam",
+      "fonts/tahoma11",
+      2,
+      1
+    ]
+  },
+  {
+    "image": [
+      "BIO",
+      205,
+      120
+    ]
+  },
+  {
+    "textbox": [
+      240,
+      122,
+      100,
+      50,
+      "/vegan.jpg",
+      "fonts/calibrib30",
+      1,
+      1
+    ]
+  }
+]

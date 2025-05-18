@@ -1,8 +1,66 @@
-{
-  "Titel": "Wurst- und Schinken-Auswahl",
-  "Untertitel": "Rindermettwurst, Katenschinken, Geflügelfrikadellen, Braten, Fleischsalat",
-  "Allergene": "Enth.: Ei, Milch, Senf, Rind, Schwein",
-  "Kennzeichen": "BIO",
-  "Vegan": "",
-  "Font_Untertitel": "fonts/calibrib16"
-}
+[
+  {
+    "textbox": [
+      5,
+      10,
+      286,
+      50,
+      "Wurst- und Schinken-Auswahl",
+      "fonts/calibrib30",
+      1,
+      1
+    ]
+  },
+  {
+    "textbox": [
+      5,
+      70,
+      286,
+      45,
+      "Rindermettwurst, Katenschinken, Geflügelfrikadellen, Braten, Fleischsalat",
+      "fonts/calibrib16",
+      1,
+      1.1
+    ]
+  },
+  {
+    "line": [
+      0,
+      115,
+      296,
+      115,
+      5
+    ]
+  },
+  {
+    "textbox": [
+      5,
+      120,
+      210,
+      45,
+      "Enth.: Ei, Milch, Senf, Rind, Schwein",
+      "fonts/tahoma11",
+      2,
+      1
+    ]
+  },
+  {
+    "image": [
+      "BIO",
+      205,
+      120
+    ]
+  },
+  {
+    "textbox": [
+      240,
+      122,
+      100,
+      50,
+      "",
+      "fonts/calibrib30",
+      1,
+      1
+    ]
+  }
+]

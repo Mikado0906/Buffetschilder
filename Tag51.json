@@ -1,8 +1,66 @@
-{
-  "Titel": "Babymozzarella",
-  "Untertitel": "mit geschmolzenen Kirschtomaten und Pesto",
-  "Allergene": "Enth.: Milch, Schalenfrüchte (Cashewnuss)",
-  "Kennzeichen": "BIO",
-  "Vegan": "",
-  "Font_Untertitel": "fonts/bahnschrift20"
-}
+[
+  {
+    "textbox": [
+      5,
+      10,
+      286,
+      50,
+      "Babymozzarella",
+      "fonts/calibrib30",
+      1,
+      1
+    ]
+  },
+  {
+    "textbox": [
+      5,
+      70,
+      286,
+      45,
+      "mit geschmolzenen Kirschtomaten und Pesto",
+      "fonts/bahnschrift20",
+      1,
+      1.1
+    ]
+  },
+  {
+    "line": [
+      0,
+      115,
+      296,
+      115,
+      5
+    ]
+  },
+  {
+    "textbox": [
+      5,
+      120,
+      210,
+      45,
+      "Enth.: Milch, Schalenfrüchte (Cashewnuss)",
+      "fonts/tahoma11",
+      2,
+      1
+    ]
+  },
+  {
+    "image": [
+      "BIO",
+      205,
+      120
+    ]
+  },
+  {
+    "textbox": [
+      240,
+      122,
+      100,
+      50,
+      "",
+      "fonts/calibrib30",
+      1,
+      1
+    ]
+  }
+]

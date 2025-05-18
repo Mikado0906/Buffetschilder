@@ -1,8 +1,66 @@
-{
-  "Titel": "Saltimbocca",
-  "Untertitel": "Putenbrust mit Schinken und Salbei",
-  "Allergene": "Enth.: Sellerie, Schwefeldioxid/Sulfite, Schwein, Geflügel",
-  "Kennzeichen": "BIO",
-  "Vegan": "",
-  "Font_Untertitel": "fonts/bahnschrift20"
-}
+[
+  {
+    "textbox": [
+      5,
+      10,
+      286,
+      50,
+      "Saltimbocca",
+      "fonts/calibrib30",
+      1,
+      1
+    ]
+  },
+  {
+    "textbox": [
+      5,
+      70,
+      286,
+      45,
+      "Putenbrust mit Schinken und Salbei",
+      "fonts/bahnschrift20",
+      1,
+      1.1
+    ]
+  },
+  {
+    "line": [
+      0,
+      115,
+      296,
+      115,
+      5
+    ]
+  },
+  {
+    "textbox": [
+      5,
+      120,
+      210,
+      45,
+      "Enth.: Sellerie, Schwefeldioxid/Sulfite, Schwein, Geflügel",
+      "fonts/tahoma11",
+      2,
+      1
+    ]
+  },
+  {
+    "image": [
+      "BIO",
+      205,
+      120
+    ]
+  },
+  {
+    "textbox": [
+      240,
+      122,
+      100,
+      50,
+      "",
+      "fonts/calibrib30",
+      1,
+      1
+    ]
+  }
+]

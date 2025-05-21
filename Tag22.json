@@ -5,7 +5,7 @@
       10,
       286,
       50,
-      "Käse-Auswahl",
+      "Tag22",
       "fonts/calibrib30",
       1,
       1
@@ -17,8 +17,8 @@
       70,
       286,
       45,
-      "Blauschimmel-Ziege, Le Maitre Provence, Scamorzetti, pikanter Gouda",
-      "fonts/calibrib16",
+      "",
+      "fonts/bahnschrift20",
       1,
       1.1
     ]
@@ -38,7 +38,7 @@
       120,
       210,
       45,
-      "Enth.: Gluten (Gerste, Dinkel), Milch, Senf, Schalenfrüchte (Walnuss), Sesam",
+      "",
       "fonts/tahoma11",
       2,
       1
@@ -50,7 +50,7 @@
       122,
       100,
       50,
-      "BIO",
+      "",
       "fonts/calibrib30",
       1,
       1

@@ -5,7 +5,7 @@
       10,
       286,
       50,
-      "Chili sin Carne",
+      "Tag34",
       "fonts/calibrib30",
       1,
       1
@@ -38,17 +38,10 @@
       120,
       210,
       45,
-      "Enth.: Soja, Sellerie",
+      "",
       "fonts/tahoma11",
       2,
       1
-    ]
-  },
-  {
-    "image": [
-      "/vegan.jpg",
-      205,
-      120
     ]
   },
   {
@@ -57,7 +50,7 @@
       122,
       100,
       50,
-      "BIO",
+      "",
       "fonts/calibrib30",
       1,
       1

@@ -5,7 +5,7 @@
       10,
       286,
       50,
-      "Kartoffelsalat",
+      "Tag25",
       "fonts/calibrib30",
       1,
       1
@@ -17,7 +17,7 @@
       70,
       286,
       45,
-      "mit Senf-Dressing und roten Balsamico-Zwiebeln",
+      "",
       "fonts/bahnschrift20",
       1,
       1.1
@@ -38,17 +38,10 @@
       120,
       210,
       45,
-      "Enth.: Senf",
+      "",
       "fonts/tahoma11",
       2,
       1
-    ]
-  },
-  {
-    "image": [
-      "/vegan.jpg",
-      205,
-      120
     ]
   },
   {
@@ -57,7 +50,7 @@
       122,
       100,
       50,
-      "BIO",
+      "",
       "fonts/calibrib30",
       1,
       1

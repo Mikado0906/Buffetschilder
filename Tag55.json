@@ -5,7 +5,7 @@
       10,
       286,
       50,
-      "Käse-Auswahl",
+      "Paprika-Hummus",
       "fonts/calibrib30",
       1,
       1
@@ -17,8 +17,8 @@
       70,
       286,
       45,
-      "Friesisch Blue, Le Maître Provence, Scamorzetti, pikanter Gouda",
-      "fonts/calibrib16",
+      "",
+      "fonts/bahnschrift20",
       1,
       1.1
     ]
@@ -38,10 +38,17 @@
       120,
       210,
       45,
-      "Enth.: Gluten (Gerste, Dinkel), Milch, Senf, Schalenfrüchte (Walnuss), Sesam",
+      "Enth.: Sesam",
       "fonts/tahoma11",
       2,
       1
+    ]
+  },
+  {
+    "image": [
+      "/vegan.jpg",
+      205,
+      120
     ]
   },
   {

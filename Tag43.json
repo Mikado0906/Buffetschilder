@@ -5,18 +5,10 @@
       10,
       286,
       50,
-      "Butter Chicken Beans",
+      "Curry",
       "fonts/calibrib30",
       1,
       1
-    ]
-  },
- {
-    "line": [
-      100,
-      10,
-      200,
-      10
     ]
   },
   {
@@ -25,8 +17,8 @@
       70,
       286,
       45,
-      "Mildes Indisches Curry",
-      "fonts/bahnschrift20",
+      "Mildes Indisches Curry mit Butter ihnen und Blumenkohl",
+      "fonts/calibrib16",
       1,
       1.1
     ]
@@ -62,14 +54,6 @@
       "fonts/calibrib30",
       1,
       1
-    ]
-  },
- {
-    "line": [
-      100,
-      10,
-      200,
-      10
     ]
   }
 ]

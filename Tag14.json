@@ -17,7 +17,7 @@
       70,
       286,
       45,
-      "Mit Gewürzgurke & Ei",
+      "Mit Radieschen & grünen Bohnen",
       "fonts/bahnschrift20",
       1,
       1.1
@@ -38,10 +38,17 @@
       120,
       210,
       45,
-      "Enth.: Ei, Milch, Senf, Sellerie",
+      "Enth.: Senf, Sellerie",
       "fonts/tahoma11",
       2,
       1
+    ]
+  },
+  {
+    "image": [
+      "/vegan.jpg",
+      205,
+      120
     ]
   },
   {

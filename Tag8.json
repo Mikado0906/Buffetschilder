@@ -5,7 +5,7 @@
       10,
       286,
       50,
-      "Malzbier-Pilzragout",
+      "Shakshuka",
       "fonts/calibrib30",
       1,
       1
@@ -17,8 +17,8 @@
       70,
       286,
       45,
-      "",
-      "fonts/bahnschrift20",
+      "Levantinische Tomaten-Paprikapfanne mit gestockten Eiern",
+      "fonts/calibrib16",
       1,
       1.1
     ]
@@ -38,17 +38,10 @@
       120,
       210,
       45,
-      "Enth.: Gluten (Gerste, Weizen), Soja, Senf",
+      "Enth.: Ei, Milch",
       "fonts/tahoma11",
       2,
       1
-    ]
-  },
-  {
-    "image": [
-      "/vegan.jpg",
-      205,
-      120
     ]
   },
   {

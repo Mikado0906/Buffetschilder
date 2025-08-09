@@ -17,7 +17,7 @@
       70,
       286,
       45,
-      "mit Couscous & Feta",
+      "mit Couscous & Aprikosen",
       "fonts/bahnschrift20",
       1,
       1.1
@@ -38,10 +38,17 @@
       120,
       210,
       45,
-      "Enth.: Gluten, Milch",
+      "Enth.: Gluten",
       "fonts/tahoma11",
       2,
       1
+    ]
+  },
+  {
+    "image": [
+      "/vegan.jpg",
+      205,
+      120
     ]
   },
   {

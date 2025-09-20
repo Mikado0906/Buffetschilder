@@ -5,7 +5,7 @@
       10,
       286,
       50,
-      "Wrap",
+      "Blätterteig-Röllchen",
       "fonts/calibrib30",
       1,
       1
@@ -17,7 +17,7 @@
       70,
       286,
       45,
-      "mit Rinderhack, Mais und Käse",
+      "mit Tomate und Olive",
       "fonts/bahnschrift20",
       1,
       1.1
@@ -38,10 +38,17 @@
       120,
       210,
       45,
-      "Enth.: Gluten (Weizen), Milch, Soja, Rind",
+      "Enth.: Gluten (Weizen), Soja",
       "fonts/tahoma11",
       2,
       1
+    ]
+  },
+  {
+    "image": [
+      "/vegan.jpg",
+      205,
+      120
     ]
   },
   {

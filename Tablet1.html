@@ -2,10 +2,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
 <style>
-html, body { height:100%; width:100%; margin:0; padding:0; font-family:"Alegreya Sans", sans-serif; box-sizing:border-box; overflow:hidden; }
-.bg-image { position:fixed; top:0; left:0; height:100vh; width:auto; z-index:-1; display:block; }
+html, body { height:100%; width:100%; margin:0; padding:0; font-family:"Alegreya Sans", sans-serif; box-sizing:border-box; overflow:hidden; line-height:0; }
+body { background-image: url("https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/Tablet%20backgroud.png"); background-repeat:no-repeat; background-position:top left; background-size:auto 100%; }
 .container { padding:36px 12px 4px 12px; position:relative; z-index:1; }
 table.outer { border-collapse: collapse; width: 100%; margin:0; padding:0; }
 td.block { border: 1px solid #000; padding:4px; margin-bottom:12px; }
@@ -14,9 +15,9 @@ td { border: none; padding: 0; vertical-align: top; background-color: transparen
 td.colB { font-size: 46.875px; font-weight: bold; vertical-align: middle; padding-left:4px; }
 td.colC { font-size: 30px; vertical-align: middle; padding-left:4px; }
 td.colspan { font-size: 22.5px; color: #800020; font-style: italic; text-align: right; padding-right:4px; }
-td.icons { padding:4px; background-color:transparent; text-align:right; }
-div.icon-container { display:flex; align-items:flex-start; justify-content:flex-end; height:100%; }
-img.vegan { width:30px; height:auto; display:block; background-color:transparent; margin-top:4px; margin-bottom:4px; }
+td.icons { padding:0; background-color:transparent; text-align:right; }
+div.icon-container { display:flex; align-items:flex-end; justify-content:flex-end; height:100%; }
+img.vegan { width:30px; height:auto; display:block; margin-top:4px; margin-bottom:4px; margin-right:4px; }
 .logo-bottom-right { position:fixed; bottom:0; right:0; z-index:2; }
 .logo-bottom-right img { height:4.76cm; }
 .logo-bottom-left { position:fixed; bottom:10px; left:12px; z-index:2; display:flex; align-items:flex-end; gap:10px; }
@@ -25,7 +26,6 @@ img.vegan { width:30px; height:auto; display:block; background-color:transparent
 </style>
 </head>
 <body>
-<img class="bg-image" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/Tablet%20backgroud.png">
 <div class="logo-bottom-right"><img src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/FetteBeute_Logo_v-2_klein_RGB.png" alt="FetteBeute Logo"></div>
 <div class="logo-bottom-left"><img src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/AHV_Siegel_RGB_Gold.png" alt="AHVV Logo"><img src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/logo_biosiegel_4c_vollflaechig_transparent.png" alt="Bio Siegel"><span class="bio-text">DE-ÖKO-009</span></div>
 <div class="container">
@@ -56,7 +56,7 @@ img.vegan { width:30px; height:auto; display:block; background-color:transparent
 <tr><td style="height:12px; border:none;"></td></tr>
 <tr><td class="block">
 <table class="inner">
-<tr><td class="colB">Laugenschnittchen mit Frischkäse</td><td class="icons" colspan="2"><div class="icon-container"></div></td></tr>
+<tr><td class="colB">Laugenschnittchen mit Frischkäse</td><td class="icons" colspan="2"></td></tr>
 <tr><td class="colC" colspan="3">und Alpenkräutersalz</td></tr>
 <tr><td class="colspan" colspan="3">Enth.: Gluten (Weizen), Milch, Sesam</td></tr>
 </table>
@@ -64,7 +64,7 @@ img.vegan { width:30px; height:auto; display:block; background-color:transparent
 <tr><td style="height:12px; border:none;"></td></tr>
 <tr><td class="block">
 <table class="inner">
-<tr><td class="colB">Mediterraner Nudelsalat</td><td class="icons" colspan="2"><div class="icon-container"></div></td></tr>
+<tr><td class="colB">Mediterraner Nudelsalat</td><td class="icons" colspan="2"></td></tr>
 <tr><td colspan="3" style="height:4px;"></td></tr>
 <tr><td class="colspan" colspan="3">Enth.: Gluten (Weizen), Milch, Senf</td></tr>
 </table>
@@ -80,7 +80,7 @@ img.vegan { width:30px; height:auto; display:block; background-color:transparent
 <tr><td style="height:12px; border:none;"></td></tr>
 <tr><td class="block">
 <table class="inner">
-<tr><td class="colB">Wrap</td><td class="icons" colspan="2"><div class="icon-container"></div></td></tr>
+<tr><td class="colB">Wrap</td><td class="icons" colspan="2"></td></tr>
 <tr><td class="colC" colspan="3">mit Rinderhack, Mais und Käse</td></tr>
 <tr><td class="colspan" colspan="3">Enth.: Gluten (Weizen), Milch, Soja, Rind</td></tr>
 </table>

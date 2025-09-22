@@ -6,8 +6,9 @@
 <style>
 html, body { height:100%; margin:0; padding:0; font-family:"Alegreya Sans", sans-serif; }
 body { background-image: url("https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/Tablet%20backgroud.png"); background-repeat: no-repeat; background-position: top left; background-size: auto 100%;}
+.container { padding:4px; } /* spacing for cards from edges */
 table.outer { border-collapse: collapse; width: 100%; margin:0; padding:0; }
-td.block { border: 1px solid #000; padding: 4px; margin:4px; } 
+td.block { border: 1px solid #000; padding:4px; } /* internal card padding */
 table.inner { width: 100%; border-collapse: collapse; }
 td { border: none; padding: 0; vertical-align: top; background-color: transparent; }
 td.colB { font-size: 46.875px; font-weight: bold; vertical-align: middle; padding-left:4px; }
@@ -21,6 +22,7 @@ img.bio { width: 48px; height: 48px; display: block; background-color: transpare
 </head>
 <body>
 <img src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/Tablet%20backgroud.png" style="display:none;" onerror="document.body.innerHTML='<h2 style=&quot;color:red;&quot;>Background image failed to load!</h2>'">
+<div class="container">
 <table class="outer">
 <tr><td class="block">
 <table class="inner">
@@ -95,5 +97,6 @@ img.bio { width: 48px; height: 48px; display: block; background-color: transpare
 </td></tr>
 <tr><td style="height:4px; border:none;"></td></tr>
 </table>
+</div>
 </body>
 </html>

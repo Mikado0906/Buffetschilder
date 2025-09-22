@@ -14,8 +14,9 @@ td { border: none; padding: 0; vertical-align: top; background-color: transparen
 td.colB { font-size: 46.875px; font-weight: bold; vertical-align: middle; padding-left:4px; }
 td.colC { font-size: 30px; vertical-align: middle; padding-left:4px; }
 td.colspan { font-size: 22.5px; color: #800020; font-style: italic; text-align: right; padding-right:4px; }
-td.icons { padding:0; background-color:transparent; vertical-align: middle; text-align:right; }
-img.vegan { width: 30px; height: 30px; display: inline-block; background-color: transparent; margin-right:4px; margin-top:4px; vertical-align:bottom; }
+td.icons { padding:4px; background-color:transparent; text-align:right; }
+div.icon-container { display:flex; align-items:center; justify-content:flex-end; height:100%; }
+img.vegan { width:30px; height:auto; display:block; background-color:transparent; }
 .logo-bottom-right { position:fixed; bottom:0; right:0; z-index:2; }
 .logo-bottom-right img { height:4.76cm; }
 .logo-bottom-left { position:fixed; bottom:10px; left:12px; z-index:2; display:flex; align-items:flex-end; gap:10px; }
@@ -30,7 +31,7 @@ img.vegan { width: 30px; height: 30px; display: inline-block; background-color: 
 <table class="outer">
 <tr><td class="block">
 <table class="inner">
-<tr><td class="colB">Beerencrumble</td><td class="icons" colspan="2"><img class="vegan" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg"></td></tr>
+<tr><td class="colB">Beerencrumble</td><td class="icons" colspan="2"><div class="icon-container"><img class="vegan" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg"></div></td></tr>
 <tr><td colspan="3" style="height:4px;"></td></tr>
 <tr><td class="colspan" colspan="3">Enth.: Gluten (Hafer, Weizen), Soja</td></tr>
 </table>
@@ -38,7 +39,7 @@ img.vegan { width: 30px; height: 30px; display: inline-block; background-color: 
 <tr><td style="height:12px; border:none;"></td></tr>
 <tr><td class="block">
 <table class="inner">
-<tr><td class="colB">Bruschetta</td><td class="icons" colspan="2"><img class="vegan" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg"></td></tr>
+<tr><td class="colB">Bruschetta</td><td class="icons" colspan="2"><div class="icon-container"><img class="vegan" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg"></div></td></tr>
 <tr><td class="colC" colspan="3">mit frischen Tomaten und Kräutern</td></tr>
 <tr><td class="colspan" colspan="3">Enth.: Gluten (Weizen)</td></tr>
 </table>
@@ -46,7 +47,7 @@ img.vegan { width: 30px; height: 30px; display: inline-block; background-color: 
 <tr><td style="height:12px; border:none;"></td></tr>
 <tr><td class="block">
 <table class="inner">
-<tr><td class="colB">Couscous-Salat</td><td class="icons" colspan="2"><img class="vegan" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg"></td></tr>
+<tr><td class="colB">Couscous-Salat</td><td class="icons" colspan="2"><div class="icon-container"><img class="vegan" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg"></div></td></tr>
 <tr><td class="colC" colspan="3">mit Kichererbsen und Curry</td></tr>
 <tr><td class="colspan" colspan="3">Enth.: Gluten (Weizen), Schalenfrüchte (Cashewnuss)</td></tr>
 </table>
@@ -54,7 +55,7 @@ img.vegan { width: 30px; height: 30px; display: inline-block; background-color: 
 <tr><td style="height:12px; border:none;"></td></tr>
 <tr><td class="block">
 <table class="inner">
-<tr><td class="colB">Laugenschnittchen mit Frischkäse</td><td class="icons" colspan="2"></td></tr>
+<tr><td class="colB">Laugenschnittchen mit Frischkäse</td><td class="icons" colspan="2"><div class="icon-container"></div></td></tr>
 <tr><td class="colC" colspan="3">und Alpenkräutersalz</td></tr>
 <tr><td class="colspan" colspan="3">Enth.: Gluten (Weizen), Milch, Sesam</td></tr>
 </table>
@@ -62,7 +63,7 @@ img.vegan { width: 30px; height: 30px; display: inline-block; background-color: 
 <tr><td style="height:12px; border:none;"></td></tr>
 <tr><td class="block">
 <table class="inner">
-<tr><td class="colB">Mediterraner Nudelsalat</td><td class="icons" colspan="2"></td></tr>
+<tr><td class="colB">Mediterraner Nudelsalat</td><td class="icons" colspan="2"><div class="icon-container"></div></td></tr>
 <tr><td colspan="3" style="height:4px;"></td></tr>
 <tr><td class="colspan" colspan="3">Enth.: Gluten (Weizen), Milch, Senf</td></tr>
 </table>
@@ -70,7 +71,7 @@ img.vegan { width: 30px; height: 30px; display: inline-block; background-color: 
 <tr><td style="height:12px; border:none;"></td></tr>
 <tr><td class="block">
 <table class="inner">
-<tr><td class="colB">Wrap</td><td class="icons" colspan="2"><img class="vegan" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg"></td></tr>
+<tr><td class="colB">Wrap</td><td class="icons" colspan="2"><div class="icon-container"><img class="vegan" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg"></div></td></tr>
 <tr><td class="colC" colspan="3">mit Falafel und Hummus</td></tr>
 <tr><td class="colspan" colspan="3">Enth.: Gluten (Weizen), Soja, Sesam</td></tr>
 </table>
@@ -78,7 +79,7 @@ img.vegan { width: 30px; height: 30px; display: inline-block; background-color: 
 <tr><td style="height:12px; border:none;"></td></tr>
 <tr><td class="block">
 <table class="inner">
-<tr><td class="colB">Wrap</td><td class="icons" colspan="2"></td></tr>
+<tr><td class="colB">Wrap</td><td class="icons" colspan="2"><div class="icon-container"></div></td></tr>
 <tr><td class="colC" colspan="3">mit Rinderhack, Mais und Käse</td></tr>
 <tr><td class="colspan" colspan="3">Enth.: Gluten (Weizen), Milch, Soja, Rind</td></tr>
 </table>

@@ -1,90 +1,138 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
 <meta charset="UTF-8">
+<title>Rezepte</title>
 <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
+
 <style>
-html, body { height:100%; width:100%; margin:0; padding:0; font-family:"Alegreya Sans", sans-serif; background-color:#e0e0e0; box-sizing:border-box; overflow:hidden; }
-.container { padding:36px 12px 4px 12px; position:relative; z-index:1; }
-table.outer { border-collapse: collapse; width: 100%; margin:0; padding:0; }
-td.block { border:1px solid #000; padding:4px; margin-bottom:12px; background-color:#fff; }
-table.inner { width: 100%; border-collapse: collapse; }
-td { border: none; padding: 0; vertical-align: top; background-color: transparent; }
-td.colB { font-size: 46.875px; font-weight: bold; vertical-align: middle; padding-left:4px; }
-td.colC { font-size: 30px; vertical-align: middle; padding-left:4px; }
-td.colspan { font-size: 22.5px; color: #800020; font-style: italic; text-align: right; padding-right:4px; }
-td.icons { padding:4px; background-color:transparent; text-align:right; }
-div.icon-container { display:flex; align-items:flex-end; justify-content:flex-end; height:100%; }
-img.vegan { width:30px; height:auto; display:block; background-color:transparent; margin-top:4px; margin-bottom:4px; }
-.logo-bottom-right { position:fixed; bottom:0; right:0; z-index:2; }
-.logo-bottom-right img { height:4.76cm; }
-.logo-bottom-left { position:fixed; bottom:10px; left:12px; z-index:2; display:flex; align-items:flex-end; gap:10px; }
-.logo-bottom-left img { height:2.55cm; }
-.bio-text { font-family:"Alegreya Sans", sans-serif; font-size:18px; font-weight:normal; align-self:flex-end; margin-left:-3px; position: relative; top: 1px; }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alegreya Sans', sans-serif;
+    background-color: #e5e5e5; /* slightly darker light grey */
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+
+  table.outer {
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  td.block {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+
+  table.inner {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .colA {
+    width: 80px;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .colB {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .colC {
+    font-size: 18px;
+    text-align: right;
+    vertical-align: top;
+    white-space: nowrap;
+  }
+
+  .allergens {
+    font-size: 14px;
+    text-align: left;
+    color: #333;
+    padding-top: 6px;
+  }
+
+  .vegan-icon {
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+  }
+
+  .card-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Logos */
+  .logo-bottom-left, .logo-bottom-right {
+    position: fixed;
+    bottom: 10px;
+    z-index: 100;
+  }
+
+  .logo-bottom-left {
+    left: 10px;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .logo-bottom-left img {
+    height: 80px; /* ~3 cm on 10" screen */
+    margin-right: 10px;
+  }
+
+  .logo-bottom-right {
+    right: 10px;
+  }
+
+  .logo-bottom-right img {
+    height: 115px; /* ~20% larger */
+  }
+
+  .bio-text {
+    font-size: 13px;
+    margin-left: 10px;
+    position: relative;
+    top: 3px; /* nudged down ~1mm */
+  }
 </style>
 </head>
+
 <body>
-<div class="logo-bottom-right"><img src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/FetteBeute_Logo_v-2_klein_RGB.png" alt="FetteBeute Logo"></div>
-<div class="logo-bottom-left"><img src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/AHV_Siegel_RGB_Gold.png" alt="AHVV Logo"><img src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/logo_biosiegel_4c_vollflaechig_transparent.png" alt="Bio Siegel"><span class="bio-text">DE-ÖKO-009</span></div>
-<div class="container">
-<table class="outer">
-<tr><td class="block">
-<table class="inner">
-<tr><td class="colB">Beerencrumble</td><td class="icons" colspan="2"><div class="icon-container"><img class="vegan" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg"></div></td></tr>
-<tr><td colspan="3" style="height:4px;"></td></tr>
-<tr><td class="colspan" colspan="3">Enth.: Gluten (Hafer, Weizen), Soja</td></tr>
-</table>
-</td></tr>
-<tr><td style="height:12px; border:none;"></td></tr>
-<tr><td class="block">
-<table class="inner">
-<tr><td class="colB">Bruschetta</td><td class="icons" colspan="2"><div class="icon-container"><img class="vegan" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg"></div></td></tr>
-<tr><td class="colC" colspan="3">mit frischen Tomaten und Kräutern</td></tr>
-<tr><td class="colspan" colspan="3">Enth.: Gluten (Weizen)</td></tr>
-</table>
-</td></tr>
-<tr><td style="height:12px; border:none;"></td></tr>
-<tr><td class="block">
-<table class="inner">
-<tr><td class="colB">Couscous-Salat</td><td class="icons" colspan="2"><div class="icon-container"><img class="vegan" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg"></div></td></tr>
-<tr><td class="colC" colspan="3">mit Kichererbsen und Curry</td></tr>
-<tr><td class="colspan" colspan="3">Enth.: Gluten (Weizen), Schalenfrüchte (Cashewnuss)</td></tr>
-</table>
-</td></tr>
-<tr><td style="height:12px; border:none;"></td></tr>
-<tr><td class="block">
-<table class="inner">
-<tr><td class="colB">Laugenschnittchen mit Frischkäse</td><td class="icons" colspan="2"></td></tr>
-<tr><td class="colC" colspan="3">und Alpenkräutersalz</td></tr>
-<tr><td class="colspan" colspan="3">Enth.: Gluten (Weizen), Milch, Sesam</td></tr>
-</table>
-</td></tr>
-<tr><td style="height:12px; border:none;"></td></tr>
-<tr><td class="block">
-<table class="inner">
-<tr><td class="colB">Mediterraner Nudelsalat</td><td class="icons" colspan="2"></td></tr>
-<tr><td colspan="3" style="height:4px;"></td></tr>
-<tr><td class="colspan" colspan="3">Enth.: Gluten (Weizen), Milch, Senf</td></tr>
-</table>
-</td></tr>
-<tr><td style="height:12px; border:none;"></td></tr>
-<tr><td class="block">
-<table class="inner">
-<tr><td class="colB">Wrap</td><td class="icons" colspan="2"><div class="icon-container"><img class="vegan" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg"></div></td></tr>
-<tr><td class="colC" colspan="3">mit Falafel und Hummus</td></tr>
-<tr><td class="colspan" colspan="3">Enth.: Gluten (Weizen), Soja, Sesam</td></tr>
-</table>
-</td></tr>
-<tr><td style="height:12px; border:none;"></td></tr>
-<tr><td class="block">
-<table class="inner">
-<tr><td class="colB">Wrap</td><td class="icons" colspan="2"></td></tr>
-<tr><td class="colC" colspan="3">mit Rinderhack, Mais und Käse</td></tr>
-<tr><td class="colspan" colspan="3">Enth.: Gluten (Weizen), Milch, Soja, Rind</td></tr>
-</table>
-</td></tr>
-<tr><td style="height:12px; border:none;"></td></tr>
-</table>
-</div>
+  <div class="logo-bottom-left">
+    <img src="AHV_Siegel_RGB_Gold.png" alt="AHVV Logo">
+    <img src="logo_biosiegel_4c_vollflaechig_transparent.png" alt="Bio Siegel">
+    <span class="bio-text">DE-ÖKO-009</span>
+  </div>
+
+  <div class="logo-bottom-right">
+    <img src="FetteBeute_Logo_v-2_klein_RGB.png" alt="Fette Beute Logo">
+  </div>
+
+  <div class="container">
+    <table class="outer" id="content-table">
+      <!-- content.html will be injected here -->
+    </table>
+  </div>
+
+  <script>
+    fetch('content.html')
+      .then(resp => resp.text())
+      .then(html => {
+        document.getElementById('content-table').innerHTML = html;
+      });
+  </script>
 </body>
 </html>

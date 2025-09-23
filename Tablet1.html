@@ -10,13 +10,11 @@
     margin: 0;
     padding: 0;
     font-family: 'Alegreya Sans', sans-serif;
-    background-color: #dcdcdc; /* slightly darker light grey */
+    background-color: #d9d9d9; /* slightly darker light grey */
   }
 
   .container {
-    display: flex;
-    justify-content: center;
-    padding: 0;
+    padding: 10px 5px 0 5px; /* top 10px, left/right 5px */
   }
 
   table.outer {
@@ -25,13 +23,11 @@
   }
 
   td.block {
-    position: relative;
-    width: calc(100% - 10px);
-    margin: 10px 5px 0 5px; /* top margin 10px first card will be adjusted in content */
+    position: relative; /* for absolute positioning of vegan icon */
     background: #fff;
-    padding: 4px;
-    border: 1px solid #000;
-    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px; /* spacing between cards */
   }
 
   table.inner {
@@ -40,14 +36,14 @@
   }
 
   .colB {
-    font-size: 26px;
+    font-size: 28px;
     font-weight: bold;
     text-align: left;
     vertical-align: top;
   }
 
   .colC {
-    font-size: 18px;
+    font-size: 21px;
     text-align: left;
     vertical-align: top;
   }
@@ -55,8 +51,8 @@
   .allergens {
     font-size: 16px;
     text-align: right;
-    color: #800020; /* dark red */
-    padding-top: 4px;
+    color: #800020;
+    padding-top: 6px;
   }
 
   .vegan-icon {
@@ -75,40 +71,42 @@
   }
 
   .logo-bottom-left {
-    left: 10px;
+    left: 5px;
     display: flex;
     align-items: flex-end;
+    gap: 10px;
   }
 
   .logo-bottom-left img {
-    height: 80px; /* ~3 cm on 10" screen */
-    margin-right: 10px;
+    height: 68px; /* AHVV logo ~15% smaller than before */
   }
 
   .logo-bottom-right {
-    right: 10px;
+    right: 5px;
   }
 
   .logo-bottom-right img {
-    height: 115px; /* ~20% larger */
+    height: 115px; /* Fette Beute logo 20% larger */
   }
 
   .bio-text {
     font-size: 13px;
-    margin-left: 10px;
     position: relative;
-    top: 3px; /* nudged down ~1mm */
+    top: 3px; /* aligned with bottom of Bio Siegel */
   }
 </style>
 </head>
 
 <body>
+
+  <!-- Bottom left logos -->
   <div class="logo-bottom-left">
     <img src="AHV_Siegel_RGB_Gold.png" alt="AHVV Logo">
     <img src="logo_biosiegel_4c_vollflaechig_transparent.png" alt="Bio Siegel">
     <span class="bio-text">DE-ÖKO-009</span>
   </div>
 
+  <!-- Bottom right logo -->
   <div class="logo-bottom-right">
     <img src="FetteBeute_Logo_v-2_klein_RGB.png" alt="Fette Beute Logo">
   </div>
@@ -123,14 +121,7 @@
     fetch('content1.html')
       .then(resp => resp.text())
       .then(html => {
-        const contentTable = document.getElementById('content-table');
-        contentTable.innerHTML = html;
-
-        // Apply correct top margin for first card and 5px gap between others
-        const blocks = contentTable.querySelectorAll('td.block');
-        blocks.forEach((block, idx) => {
-          block.style.marginTop = idx === 0 ? '10px' : '5px';
-        });
+        document.getElementById('content-table').innerHTML = html;
       });
   </script>
 </body>

@@ -10,24 +10,26 @@
     margin: 0;
     padding: 0;
     font-family: 'Alegreya Sans', sans-serif;
-    background-color: #d9d9d9; /* slightly darker light grey */
+    background-color: #dcdcdc; /* slightly darker light grey */
   }
 
   .container {
-    padding: 10px 5px 0 5px; /* top 10px, left/right 5px */
+    display: flex;
+    justify-content: center;
+    padding-top: 10px; /* top margin */
   }
 
   table.outer {
-    border-collapse: collapse;
-    width: 100%;
+    border-collapse: separate; /* allow spacing between rows */
+    border-spacing: 0 5px; /* 5px vertical gap between cards */
+    width: calc(100% - 10px); /* 5px left & right margin */
   }
 
   td.block {
-    position: relative; /* for absolute positioning of vegan icon */
     background: #fff;
     padding: 10px;
     border: 1px solid #ddd;
-    margin-bottom: 5px; /* spacing between cards */
+    position: relative;
   }
 
   table.inner {
@@ -36,20 +38,20 @@
   }
 
   .colB {
-    font-size: 28px;
+    font-size: 28px; /* bigger */
     font-weight: bold;
     text-align: left;
     vertical-align: top;
   }
 
   .colC {
-    font-size: 21px;
+    font-size: 22px; /* bigger */
     text-align: left;
     vertical-align: top;
   }
 
   .allergens {
-    font-size: 16px;
+    font-size: 18px;
     text-align: right;
     color: #800020;
     padding-top: 6px;
@@ -71,49 +73,47 @@
   }
 
   .logo-bottom-left {
-    left: 5px;
+    left: 10px;
     display: flex;
     align-items: flex-end;
-    gap: 10px;
   }
 
   .logo-bottom-left img {
-    height: 68px; /* AHVV logo ~15% smaller than before */
+    height: 80px; /* ~3 cm on 10" screen */
+    margin-right: 10px;
   }
 
   .logo-bottom-right {
-    right: 5px;
+    right: 10px;
   }
 
   .logo-bottom-right img {
-    height: 115px; /* Fette Beute logo 20% larger */
+    height: 115px; /* 20% larger than 3cm */
   }
 
   .bio-text {
     font-size: 13px;
+    margin-left: 10px;
     position: relative;
-    top: 3px; /* aligned with bottom of Bio Siegel */
+    top: 3px; /* nudged down ~1mm */
   }
 </style>
 </head>
 
 <body>
-
-  <!-- Bottom left logos -->
   <div class="logo-bottom-left">
     <img src="AHV_Siegel_RGB_Gold.png" alt="AHVV Logo">
     <img src="logo_biosiegel_4c_vollflaechig_transparent.png" alt="Bio Siegel">
     <span class="bio-text">DE-ÖKO-009</span>
   </div>
 
-  <!-- Bottom right logo -->
   <div class="logo-bottom-right">
     <img src="FetteBeute_Logo_v-2_klein_RGB.png" alt="Fette Beute Logo">
   </div>
 
   <div class="container">
     <table class="outer" id="content-table">
-      <!-- content1.html will be injected here -->
+      <!-- content.html will be injected here -->
     </table>
   </div>
 

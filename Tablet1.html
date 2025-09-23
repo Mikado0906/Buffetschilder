@@ -10,7 +10,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Alegreya Sans', sans-serif;
-    background-color: #e5e5e5; /* slightly darker light grey */
+    background-color: #dcdcdc; /* slightly darker light grey */
   }
 
   .container {
@@ -21,13 +21,17 @@
 
   table.outer {
     border-collapse: collapse;
-    margin-top: 20px;
+    width: 100%;
   }
 
   td.block {
+    position: relative;
+    width: calc(100% - 10px);
+    margin: 10px 5px 0 5px; /* top margin 10px first card will be adjusted in content */
     background: #fff;
-    padding: 10px;
-    border: 1px solid #ddd;
+    padding: 4px;
+    border: 1px solid #000;
+    box-sizing: border-box;
   }
 
   table.inner {
@@ -35,14 +39,8 @@
     border-collapse: collapse;
   }
 
-  .colA {
-    width: 80px;
-    text-align: left;
-    vertical-align: top;
-  }
-
   .colB {
-    font-size: 22px;
+    font-size: 26px;
     font-weight: bold;
     text-align: left;
     vertical-align: top;
@@ -50,29 +48,23 @@
 
   .colC {
     font-size: 18px;
-    text-align: right;
+    text-align: left;
     vertical-align: top;
-    white-space: nowrap;
   }
 
   .allergens {
-    font-size: 14px;
-    text-align: left;
-    color: #333;
-    padding-top: 6px;
+    font-size: 16px;
+    text-align: right;
+    color: #800020; /* dark red */
+    padding-top: 4px;
   }
 
   .vegan-icon {
     width: 26px;
     height: 26px;
     position: absolute;
-    top: 4px;
-    right: 4px;
-  }
-
-  .card-wrapper {
-    position: relative;
-    display: inline-block;
+    top: 3px;
+    right: 3px;
   }
 
   /* Logos */
@@ -123,7 +115,7 @@
 
   <div class="container">
     <table class="outer" id="content-table">
-      <!-- content.html will be injected here -->
+      <!-- content1.html will be injected here -->
     </table>
   </div>
 
@@ -131,7 +123,14 @@
     fetch('content1.html')
       .then(resp => resp.text())
       .then(html => {
-        document.getElementById('content-table').innerHTML = html;
+        const contentTable = document.getElementById('content-table');
+        contentTable.innerHTML = html;
+
+        // Apply correct top margin for first card and 5px gap between others
+        const blocks = contentTable.querySelectorAll('td.block');
+        blocks.forEach((block, idx) => {
+          block.style.marginTop = idx === 0 ? '10px' : '5px';
+        });
       });
   </script>
 </body>

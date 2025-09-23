@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Rezepte</title>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
+
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alegreya Sans', sans-serif;
+    background-color: #dcdcdc;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    padding-top: 12.5px;
+  }
+
+  table.outer {
+    border-collapse: separate;
+    border-spacing: 0 6.25px;
+    width: calc(100% - 12.5px);
+  }
+
+  td.block {
+    background: #fff;
+    padding: 12.5px;
+    border: 1px solid #ddd;
+    position: relative;
+  }
+
+  table.inner {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .colB {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .colC {
+    font-size: 22px;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .allergens {
+    font-size: 18px;
+    text-align: right;
+    color: #800020;
+    padding-top: 7.5px;
+  }
+
+  .vegan-icon {
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    top: 6px;
+    right: 6px;
+  }
+
+  /* Logos */
+  .logo-bottom-left, .logo-bottom-right {
+    position: fixed;
+    bottom: 10px;
+    z-index: 100;
+  }
+
+  .logo-bottom-left {
+    left: 10px;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .logo-bottom-left img {
+    height: 100px;
+    margin-right: 12.5px;
+  }
+
+  .logo-bottom-right {
+    right: 10px;
+  }
+
+  .logo-bottom-right img {
+    height: 143.75px;
+  }
+
+  .bio-text {
+    font-size: 16px;
+    margin-left: -25px; /* moved left 25px */
+    position: relative;
+    top: 3.75px;
+  }
+</style>
+</head>
+
+<body>
+  <div class="logo-bottom-left">
+    <img src="AHV_Siegel_RGB_Gold.png" alt="AHVV Logo">
+    <img src="logo_biosiegel_4c_vollflaechig_transparent.png" alt="Bio Siegel">
+    <span class="bio-text">DE-ÖKO-009</span>
+  </div>
+
+  <div class="logo-bottom-right">
+    <img src="FetteBeute_Logo_v-2_klein_RGB.png" alt="Fette Beute Logo">
+  </div>
+
+  <div class="container">
+    <table class="outer" id="content-table">
+      <!-- content.html will be injected here -->
+    </table>
+  </div>
+
+  <script>
+    fetch('content1.html')
+      .then(resp => resp.text())
+      .then(html => {
+        document.getElementById('content-table').innerHTML = html;
+      });
+  </script>
+</body>
+</html>

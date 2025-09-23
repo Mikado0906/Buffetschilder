@@ -404,12 +404,12 @@
     <div class="card-wrapper">
       <table class="inner">
         <tr>
-          <td class="colB">mit gerösteten Möhren, Cranberries und Haselnüssen</td>
+          <td class="colB">Eiersalat & Kresse</td>
           <td class="colC">
             <img class="vegan-icon" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg" alt="Vegan">
           </td>
         </tr>
-        <tr><td class="colC" colspan="2">Enth.: Gluten (Weizen), Soja, Senf, Schalenfrüchte (Haselnuss)</td></tr>
+        <tr><td class="colC" colspan="2">Enth.: Gluten (Roggen, Dinkel), Ei, Senf, Sellerie, Sesam</td></tr>
         <tr><td class="allergens" colspan="2">BIO</td></tr>
       </table>
     </div>

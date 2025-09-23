@@ -1,0 +1,481 @@
+
+<tr>
+  <td class="block">
+    <div class="card-wrapper">
+      <table class="inner">
+        <tr>
+          <td class="colB">mit Kirschen</td>
+          <td class="colC">
+            <img class="vegan-icon" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg" alt="Vegan">
+          </td>
+        </tr>
+        <tr><td class="colC" colspan="2">Enth.: Soja</td></tr>
+        <tr><td class="allergens" colspan="2">Enth.: BIO</td></tr>
+      </table>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td class="block">
+    <div class="card-wrapper">
+      <table class="inner">
+        <tr>
+          <td class="colB">mit Senf-Dressing und roten Balsamico-Zwiebeln</td>
+          <td class="colC">
+            <img class="vegan-icon" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg" alt="Vegan">
+          </td>
+        </tr>
+        <tr><td class="colC" colspan="2">Enth.: Senf</td></tr>
+        <tr><td class="allergens" colspan="2">Enth.: BIO</td></tr>
+      </table>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td class="block">
+    <div class="card-wrapper">
+      <table class="inner">
+        <tr>
+          <td class="colB">unter Polentahaube</td>
+          <td class="colC">
+            <img class="vegan-icon" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg" alt="Vegan">
+          </td>
+        </tr>
+        <tr><td class="colC" colspan="2">Enth.: Milch, Senf, Fisch</td></tr>
+        <tr><td class="allergens" colspan="2">Enth.: BIO</td></tr>
+      </table>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td class="block">
+    <div class="card-wrapper">
+      <table class="inner">
+        <tr>
+          <td class="colB">Mango</td>
+          <td class="colC">
+            <img class="vegan-icon" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg" alt="Vegan">
+          </td>
+        </tr>
+        <tr><td class="colC" colspan="2">Enth.: Milch</td></tr>
+        <tr><td class="allergens" colspan="2">Enth.: BIO</td></tr>
+      </table>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td class="block">
+    <div class="card-wrapper">
+      <table class="inner">
+        <tr>
+          <td class="colB">mit Papaya-Mango-Creme</td>
+          <td class="colC">
+            <img class="vegan-icon" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg" alt="Vegan">
+          </td>
+        </tr>
+        <tr><td class="colC" colspan="2">Enth.: Gluten (Weizen), Senf, Sellerie</td></tr>
+        <tr><td class="allergens" colspan="2">Enth.: BIO</td></tr>
+      </table>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td class="block">
+    <div class="card-wrapper">
+      <table class="inner">
+        <tr>
+          <td class="colB">Putenbrust mit Schinken und Salbei</td>
+          <td class="colC">
+            <img class="vegan-icon" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg" alt="Vegan">
+          </td>
+        </tr>
+        <tr><td class="colC" colspan="2">Enth.: Sellerie, Schwefeldioxid/Sulfite, Schwein, Geflügel</td></tr>
+        <tr><td class="allergens" colspan="2">Enth.: BIO</td></tr>
+      </table>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td class="block">
+    <div class="card-wrapper">
+      <table class="inner">
+        <tr>
+          <td class="colB">Mango</td>
+          <td class="colC">
+            <img class="vegan-icon" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg" alt="Vegan">
+          </td>
+        </tr>
+        <tr><td class="colC" colspan="2">Enth.: Milch</td></tr>
+        <tr><td class="allergens" colspan="2">Enth.: BIO</td></tr>
+      </table>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td class="block">
+    <div class="card-wrapper">
+      <table class="inner">
+        <tr>
+          <td class="colB">Caesar Chicken</td>
+          <td class="colC">
+            <img class="vegan-icon" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg" alt="Vegan">
+          </td>
+        </tr>
+        <tr><td class="colC" colspan="2">Enth.: Gluten (Weizen), Milch, Soja, Senf, Sellerie, Geflügel</td></tr>
+        <tr><td class="allergens" colspan="2">Enth.: BIO</td></tr>
+      </table>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td class="block">
+    <div class="card-wrapper">
+      <table class="inner">
+        <tr>
+          <td class="colB">Walnuss-Brownie, Mohn-Streusel, Kirsch-Marzipan</td>
+          <td class="colC">
+            <img class="vegan-icon" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg" alt="Vegan">
+          </td>
+        </tr>
+        <tr><td class="colC" colspan="2">Enth.: Gluten (Weizen, Dinkel), Ei, Milch, Schalenfrüchte (Mandeln, Walnüsse)</td></tr>
+        <tr><td class="allergens" colspan="2">Enth.: BIO</td></tr>
+      </table>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td class="block">
+    <div class="card-wrapper">
+      <table class="inner">
+        <tr>
+          <td class="colB">mit Datteln und Gemüse</td>
+          <td class="colC">
+            <img class="vegan-icon" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg" alt="Vegan">
+          </td>
+        </tr>
+        <tr><td class="colC" colspan="2">Enth.: Schalenfrüchte (Cashewnuss)</td></tr>
+        <tr><td class="allergens" colspan="2">Enth.: BIO</td></tr>
+      </table>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td class="block">
+    <div class="card-wrapper">
+      <table class="inner">
+        <tr>
+          <td class="colB">mit Falafel und Hummus</td>
+          <td class="colC">
+            <img class="vegan-icon" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg" alt="Vegan">
+          </td>
+        </tr>
+        <tr><td class="colC" colspan="2">Enth.: Gluten (Weizen), Soja, Sesam</td></tr>
+        <tr><td class="allergens" colspan="2">Enth.: BIO</td></tr>
+      </table>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td class="block">
+    <div class="card-wrapper">
+      <table class="inner">
+        <tr>
+          <td class="colB">mit Kichererbsen und Curry</td>
+          <td class="colC">
+            <img class="vegan-icon" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg" alt="Vegan">
+          </td>
+        </tr>
+        <tr><td class="colC" colspan="2">Enth.: Gluten (Weizen), Schalenfrüchte (Cashewnuss)</td></tr>
+        <tr><td class="allergens" colspan="2">Enth.: BIO</td></tr>
+      </table>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td class="block">
+    <div class="card-wrapper">
+      <table class="inner">
+        <tr>
+          <td class="colB">Geheimsauce, Mango-Curry Ketchup*, Fruchtsenf*, Aioli</td>
+          <td class="colC">
+            <img class="vegan-icon" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg" alt="Vegan">
+          </td>
+        </tr>
+        <tr><td class="colC" colspan="2">Enth.: Gluten (Weizen), Milch, Soja, Senf</td></tr>
+        <tr><td class="allergens" colspan="2">Enth.: BIO</td></tr>
+      </table>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td class="block">
+    <div class="card-wrapper">
+      <table class="inner">
+        <tr>
+          <td class="colB">Butterbohnen & Blumenkohl in cremiger Currysauce</td>
+          <td class="colC">
+            <img class="vegan-icon" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg" alt="Vegan">
+          </td>
+        </tr>
+        <tr><td class="colC" colspan="2">Enth.: Milch</td></tr>
+        <tr><td class="allergens" colspan="2">Enth.: BIO</td></tr>
+      </table>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td class="block">
+    <div class="card-wrapper">
+      <table class="inner">
+        <tr>
+          <td class="colB">Zitronen-Thymian Champignons, Ingwer-Karotten, Balsamico-Honig Schalotten*</td>
+          <td class="colC">
+            <img class="vegan-icon" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg" alt="Vegan">
+          </td>
+        </tr>
+        <tr><td class="colC" colspan="2">Enth.: Milch, Schwefeldioxid/Sulfite; *enth. Honig</td></tr>
+        <tr><td class="allergens" colspan="2">Enth.: BIO</td></tr>
+      </table>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td class="block">
+    <div class="card-wrapper">
+      <table class="inner">
+        <tr>
+          <td class="colB">mit frischen Tomaten und Kräutern</td>
+          <td class="colC">
+            <img class="vegan-icon" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg" alt="Vegan">
+          </td>
+        </tr>
+        <tr><td class="colC" colspan="2">Enth.: Gluten (Weizen)</td></tr>
+        <tr><td class="allergens" colspan="2">Enth.: BIO</td></tr>
+      </table>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td class="block">
+    <div class="card-wrapper">
+      <table class="inner">
+        <tr>
+          <td class="colB">mit Birne, karamellisierten Walnüssen und Zitronendressing</td>
+          <td class="colC">
+            <img class="vegan-icon" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg" alt="Vegan">
+          </td>
+        </tr>
+        <tr><td class="colC" colspan="2">Enth.: Senf, Schalenfrüchte (Walnuss)</td></tr>
+        <tr><td class="allergens" colspan="2">Enth.: BIO</td></tr>
+      </table>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td class="block">
+    <div class="card-wrapper">
+      <table class="inner">
+        <tr>
+          <td class="colB">Mango</td>
+          <td class="colC">
+            <img class="vegan-icon" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg" alt="Vegan">
+          </td>
+        </tr>
+        <tr><td class="colC" colspan="2">Enth.: Milch</td></tr>
+        <tr><td class="allergens" colspan="2">Enth.: BIO</td></tr>
+      </table>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td class="block">
+    <div class="card-wrapper">
+      <table class="inner">
+        <tr>
+          <td class="colB">Waldbeeren</td>
+          <td class="colC">
+            <img class="vegan-icon" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg" alt="Vegan">
+          </td>
+        </tr>
+        <tr><td class="colC" colspan="2">Enth.: Milch</td></tr>
+        <tr><td class="allergens" colspan="2">Enth.: BIO</td></tr>
+      </table>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td class="block">
+    <div class="card-wrapper">
+      <table class="inner">
+        <tr>
+          <td class="colB">mit Paprika-Tomaten-Hummus</td>
+          <td class="colC">
+            <img class="vegan-icon" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg" alt="Vegan">
+          </td>
+        </tr>
+        <tr><td class="colC" colspan="2">Enth.: Gluten (Weizen), Sesam</td></tr>
+        <tr><td class="allergens" colspan="2">Enth.: BIO</td></tr>
+      </table>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td class="block">
+    <div class="card-wrapper">
+      <table class="inner">
+        <tr>
+          <td class="colB">Eingelegte Oliven, sonnengetrocknete Tomaten, marinierter Feta</td>
+          <td class="colC">
+            <img class="vegan-icon" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg" alt="Vegan">
+          </td>
+        </tr>
+        <tr><td class="colC" colspan="2">Enth.: Milch</td></tr>
+        <tr><td class="allergens" colspan="2">Enth.: BIO</td></tr>
+      </table>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td class="block">
+    <div class="card-wrapper">
+      <table class="inner">
+        <tr>
+          <td class="colB">mit Tomate und Olive</td>
+          <td class="colC">
+            <img class="vegan-icon" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg" alt="Vegan">
+          </td>
+        </tr>
+        <tr><td class="colC" colspan="2">Enth.: Gluten (Weizen), Soja</td></tr>
+        <tr><td class="allergens" colspan="2">Enth.: BIO</td></tr>
+      </table>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td class="block">
+    <div class="card-wrapper">
+      <table class="inner">
+        <tr>
+          <td class="colB">Gurke & Kresse</td>
+          <td class="colC">
+            <img class="vegan-icon" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg" alt="Vegan">
+          </td>
+        </tr>
+        <tr><td class="colC" colspan="2">Enth.: Gluten (Gerste, Weizen), Soja</td></tr>
+        <tr><td class="allergens" colspan="2">Enth.: BIO</td></tr>
+      </table>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td class="block">
+    <div class="card-wrapper">
+      <table class="inner">
+        <tr>
+          <td class="colB">Gemüse</td>
+          <td class="colC">
+            <img class="vegan-icon" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg" alt="Vegan">
+          </td>
+        </tr>
+        <tr><td class="colC" colspan="2">Enth.: Gluten (Weizen), Milch</td></tr>
+        <tr><td class="allergens" colspan="2">Enth.: BIO</td></tr>
+      </table>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td class="block">
+    <div class="card-wrapper">
+      <table class="inner">
+        <tr>
+          <td class="colB">im Filoteig</td>
+          <td class="colC">
+            <img class="vegan-icon" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg" alt="Vegan">
+          </td>
+        </tr>
+        <tr><td class="colC" colspan="2">Enth.: Gluten (Weizen), Milch</td></tr>
+        <tr><td class="allergens" colspan="2">Enth.: BIO</td></tr>
+      </table>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td class="block">
+    <div class="card-wrapper">
+      <table class="inner">
+        <tr>
+          <td class="colB">mit gerösteten Möhren, Cranberries und Haselnüssen</td>
+          <td class="colC">
+            <img class="vegan-icon" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg" alt="Vegan">
+          </td>
+        </tr>
+        <tr><td class="colC" colspan="2">Enth.: Gluten (Weizen), Soja, Senf, Schalenfrüchte (Haselnuss)</td></tr>
+        <tr><td class="allergens" colspan="2">Enth.: BIO</td></tr>
+      </table>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td class="block">
+    <div class="card-wrapper">
+      <table class="inner">
+        <tr>
+          <td class="colB">mit Kichererbsen und Curry</td>
+          <td class="colC">
+            <img class="vegan-icon" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg" alt="Vegan">
+          </td>
+        </tr>
+        <tr><td class="colC" colspan="2">Enth.: Gluten (Weizen), Schalenfrüchte (Cashewnuss)</td></tr>
+        <tr><td class="allergens" colspan="2">Enth.: BIO</td></tr>
+      </table>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td class="block">
+    <div class="card-wrapper">
+      <table class="inner">
+        <tr>
+          <td class="colB">und Alpenkräutersalz</td>
+          <td class="colC">
+            <img class="vegan-icon" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg" alt="Vegan">
+          </td>
+        </tr>
+        <tr><td class="colC" colspan="2">Enth.: Gluten (Weizen), Milch, Sesam</td></tr>
+        <tr><td class="allergens" colspan="2">Enth.: BIO</td></tr>
+      </table>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td class="block">
+    <div class="card-wrapper">
+      <table class="inner">
+        <tr>
+          <td class="colB">mit Falafel und Hummus</td>
+          <td class="colC">
+            <img class="vegan-icon" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg" alt="Vegan">
+          </td>
+        </tr>
+        <tr><td class="colC" colspan="2">Enth.: Gluten (Weizen), Soja, Sesam</td></tr>
+        <tr><td class="allergens" colspan="2">Enth.: BIO</td></tr>
+      </table>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td class="block">
+    <div class="card-wrapper">
+      <table class="inner">
+        <tr>
+          <td class="colB">mit Rinderhack, Mais und Käse</td>
+          <td class="colC">
+            <img class="vegan-icon" src="https://raw.githubusercontent.com/Mikado0906/Buffetschilder/main/vegan.jpg" alt="Vegan">
+          </td>
+        </tr>
+        <tr><td class="colC" colspan="2">Enth.: Gluten (Weizen), Milch, Soja, Rind</td></tr>
+        <tr><td class="allergens" colspan="2">Enth.: BIO</td></tr>
+      </table>
+    </div>
+  </td>
+</tr>

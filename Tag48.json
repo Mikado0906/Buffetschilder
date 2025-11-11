@@ -38,10 +38,17 @@
       120,
       210,
       45,
-      "Enth.: Milch",
+      "Enth.: Soja",
       "fonts/tahoma11",
       2,
       1
+    ]
+  },
+  {
+    "image": [
+      "/vegan.jpg",
+      205,
+      120
     ]
   },
   {

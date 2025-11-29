@@ -5,7 +5,7 @@
       10,
       286,
       50,
-      "Laugenschnittchen mit Frischkäse",
+      "Mediterrane Antipasti",
       "fonts/calibrib30",
       1,
       1
@@ -17,7 +17,7 @@
       70,
       286,
       45,
-      "und Alpenkräutersalz",
+      "Eingelegte Oliven, sonnengetrocknete Tomaten",
       "fonts/bahnschrift20",
       1,
       1.1
@@ -38,10 +38,17 @@
       120,
       210,
       45,
-      "Enth.: Gluten (Weizen), Milch, Sesam",
+      "",
       "fonts/tahoma11",
       2,
       1
+    ]
+  },
+  {
+    "image": [
+      "/vegan.jpg",
+      205,
+      120
     ]
   },
   {

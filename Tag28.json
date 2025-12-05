@@ -5,7 +5,7 @@
       10,
       286,
       50,
-      "Wiener Würstchen",
+      "Kartoffelsuppe",
       "fonts/calibrib30",
       1,
       1
@@ -38,10 +38,17 @@
       120,
       210,
       45,
-      "Enth.: Schwein, Senf, Sellerie",
+      "Enth.: Sellerie",
       "fonts/tahoma11",
       2,
       1
+    ]
+  },
+  {
+    "image": [
+      "/vegan.jpg",
+      205,
+      120
     ]
   },
   {

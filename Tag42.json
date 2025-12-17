@@ -5,7 +5,7 @@
       10,
       286,
       50,
-      "Winterlicher Gemüsetopf",
+      "Bircher-Müsli",
       "fonts/calibrib30",
       1,
       1
@@ -17,7 +17,7 @@
       70,
       286,
       45,
-      "",
+      "mit Nüssen, Rosinen, Äpfeln & Honig",
       "fonts/bahnschrift20",
       1,
       1.1
@@ -38,17 +38,10 @@
       120,
       210,
       45,
-      "Enth.: Gluten (Weizen), Senf, Schwefeldioxid/Sulfite",
+      "Enth.: Gluten (Hafer), Milch, Schalenfrüchte (Mandeln, Haselnuss)",
       "fonts/tahoma11",
       2,
       1
-    ]
-  },
-  {
-    "image": [
-      "/vegan.jpg",
-      205,
-      120
     ]
   },
   {

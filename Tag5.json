@@ -5,7 +5,7 @@
       10,
       286,
       50,
-      "Barbeque-Sauce",
+      "Geheimsauce",
       "fonts/calibrib30",
       1,
       1
@@ -17,7 +17,7 @@
       70,
       286,
       45,
-      "mit Ingwer & Pflaume",
+      "",
       "fonts/bahnschrift20",
       1,
       1.1
@@ -42,13 +42,6 @@
       "fonts/tahoma11",
       2,
       1
-    ]
-  },
-  {
-    "image": [
-      "/vegan.jpg",
-      205,
-      120
     ]
   },
   {

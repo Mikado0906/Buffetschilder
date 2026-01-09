@@ -5,7 +5,7 @@
       10,
       286,
       50,
-      "Belegtes Brötchen",
+      "Dreierlei Antipasti",
       "fonts/calibrib30",
       1,
       1
@@ -17,8 +17,8 @@
       70,
       286,
       45,
-      "Käse",
-      "fonts/bahnschrift20",
+      "Zitronen-Thymian Champignons*, Ingwer-Karotten*, Balsamico-Honig Schalotten",
+      "fonts/calibrib16",
       1,
       1.1
     ]
@@ -38,10 +38,17 @@
       120,
       210,
       45,
-      "Enth.: Gluten (Roggen, Dinkel), Milch, Senf, Sesam",
+      "Enth.: Milch, Schwefeldioxid/Sulfite",
       "fonts/tahoma11",
       2,
       1
+    ]
+  },
+  {
+    "image": [
+      "/vegan.jpg",
+      205,
+      120
     ]
   },
   {

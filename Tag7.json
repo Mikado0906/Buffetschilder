@@ -5,7 +5,7 @@
       10,
       286,
       50,
-      "Wurzelgemüse",
+      "Aioli",
       "fonts/calibrib30",
       1,
       1
@@ -38,17 +38,10 @@
       120,
       210,
       45,
-      "Enth.: Sellerie",
+      "Enth.: Milch",
       "fonts/tahoma11",
       2,
       1
-    ]
-  },
-  {
-    "image": [
-      "/vegan.jpg",
-      205,
-      120
     ]
   },
   {

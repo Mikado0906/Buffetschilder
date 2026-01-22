@@ -5,7 +5,7 @@
       10,
       286,
       50,
-      "Arabische Reispfanne",
+      "Schnittchen",
       "fonts/calibrib30",
       1,
       1
@@ -17,7 +17,7 @@
       70,
       286,
       45,
-      "mit Datteln und Gemüse",
+      "mit Rindersalami",
       "fonts/bahnschrift20",
       1,
       1.1
@@ -38,17 +38,10 @@
       120,
       210,
       45,
-      "Enth.: Schalenfrüchte (Cashewnuss)",
+      "Enth.: Gluten (Roggen, Weizen), Milch, Senf, Sellerie, Rind",
       "fonts/tahoma11",
       2,
       1
-    ]
-  },
-  {
-    "image": [
-      "/vegan.jpg",
-      205,
-      120
     ]
   },
   {

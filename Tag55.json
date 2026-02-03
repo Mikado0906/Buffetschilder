@@ -5,7 +5,7 @@
       10,
       286,
       50,
-      "Zartbitter-Creme",
+      "Wiener Würstchen",
       "fonts/calibrib30",
       1,
       1
@@ -17,7 +17,7 @@
       70,
       286,
       45,
-      "Mit Kirschen",
+      "",
       "fonts/bahnschrift20",
       1,
       1.1
@@ -38,17 +38,10 @@
       120,
       210,
       45,
-      "Enth.: Soja",
+      "Enth.: Rind, Schwein",
       "fonts/tahoma11",
       2,
       1
-    ]
-  },
-  {
-    "image": [
-      "/vegan.jpg",
-      205,
-      120
     ]
   },
   {

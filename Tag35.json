@@ -5,7 +5,7 @@
       10,
       286,
       50,
-      "Penne all' Arrabiata",
+      "Belegtes Brötchen",
       "fonts/calibrib30",
       1,
       1
@@ -17,7 +17,7 @@
       70,
       286,
       45,
-      "",
+      "Geräucherte Tomate",
       "fonts/bahnschrift20",
       1,
       1.1
@@ -38,17 +38,10 @@
       120,
       210,
       45,
-      "Enth.: Gluten (Weizen)",
+      "Enth.: Gluten (Roggen, Dinkel), Senf, Sellerie, Sesam",
       "fonts/tahoma11",
       2,
       1
-    ]
-  },
-  {
-    "image": [
-      "/vegan.jpg",
-      205,
-      120
     ]
   },
   {

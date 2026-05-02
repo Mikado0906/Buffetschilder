@@ -5,7 +5,7 @@
       10,
       286,
       50,
-      "Kuchen-Häppchen",
+      "Mariniertes Wurzelgemüse",
       "fonts/calibrib30",
       1,
       1
@@ -17,7 +17,7 @@
       70,
       286,
       45,
-      "Blaubeer-Törtchen, Mohn-Streusel, gedeckter Apfel",
+      "",
       "fonts/bahnschrift20",
       1,
       1.1
@@ -38,10 +38,17 @@
       120,
       210,
       45,
-      "Enth.: Gluten (Weizen, Dinkel), Ei, Milch/Laktose, Schalenfrüchte (Mandeln)",
+      "Enth.: Sellerie, Schalenfrüchte (Walnuss)",
       "fonts/tahoma11",
       2,
       1
+    ]
+  },
+  {
+    "image": [
+      "/vegan.jpg",
+      205,
+      120
     ]
   },
   {

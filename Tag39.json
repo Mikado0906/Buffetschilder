@@ -17,8 +17,8 @@
       70,
       286,
       45,
-      "Tomatenbutter, Zitronen-Pfeffer Butter, Fassbutter",
-      "fonts/bahnschrift20",
+      "Tomatenbutter*, Zitronen-Pfeffer Butter, Fassbutter",
+      "fonts/calibrib16",
       1,
       1.1
     ]
@@ -38,7 +38,7 @@
       120,
       210,
       45,
-      "Enth.: Milch/Laktose",
+      "Enth.: Milch/Laktose (*Knoblauch)",
       "fonts/tahoma11",
       2,
       1

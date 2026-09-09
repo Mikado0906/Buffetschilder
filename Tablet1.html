@@ -149,11 +149,11 @@
   </div>
 
   <script>
-    fetch('content1.html')
+    fetch('content1.html?v=' + Date.now())
       .then(resp => resp.text())
       .then(html => {
         document.getElementById('content-table').innerHTML = html;
-      });
+     });
   </script>
 
 </body>

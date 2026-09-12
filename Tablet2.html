@@ -25,17 +25,17 @@
     width: calc(100% - 12.5px);
   }
 
-td.block {
-  background: #fff;
-  padding: 12.5px;
-  border: 1px solid #ddd;
-  position: relative;
-}
+  td.block {
+    background: #fff;
+    padding: 12.5px;
+    border: 1px solid #ddd;
+    position: relative;
+  }
 
-td.block.headline-block {
-  background: #dcdcdc;
-  border: 1px solid #dcdcdc;
-}
+  td.block.headline-block {
+    background: #dcdcdc;
+    border: 1px solid #dcdcdc;
+  }
 
   table.inner {
     width: 100%;
@@ -48,26 +48,26 @@ td.block.headline-block {
     text-align: left;
     vertical-align: top;
   }
-  
-.headline {
-  font-size: 52px;
-  font-weight: bold;
-  text-align: center;
-  color: #1ca9b3;
-  padding-top: 10px;
-  padding-bottom: 6px;
-}
+
+  .headline {
+    font-size: 52px;
+    font-weight: bold;
+    text-align: center;
+    color: #1ca9b3;
+    padding-top: 10px;
+    padding-bottom: 6px;
+  }
 
   .empty-headline {
-  height: 28px;
-}
+    height: 28px;
+  }
 
-.headline-sub {
-  font-size: 28px;
-  text-align: center;
-  font-style: italic;
-  padding-bottom: 8px;
-}
+  .headline-sub {
+    font-size: 28px;
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 8px;
+  }
 
   .colC {
     font-size: 22px;
@@ -82,12 +82,33 @@ td.block.headline-block {
     padding-top: 7.5px;
   }
 
-  .vegan-icon {
-    width: 26px;
-    height: 26px;
+  /* Vegan + Bio */
+  .icons {
     position: absolute;
     top: 6px;
     right: 6px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    z-index: 10;
+  }
+
+  .vegan-icon {
+    width: 26px;
+    height: 26px;
+    display: block;
+  }
+
+  .bio-label {
+    font-size: 22px;
+    font-weight: bold;
+    color: #4a8f29;
+    line-height: 26px;
+    display: block;
+  }
+
+  .allergens-no-subtitle {
+  padding-top: 0;
   }
 
   /* Logos */
@@ -108,10 +129,9 @@ td.block.headline-block {
     margin-right: 12.5px;
   }
 
-
   .bio-text {
     font-size: 16px;
-    margin-left: -25px; /* moved left 25px */
+    margin-left: -25px;
     position: relative;
     top: 3.75px;
   }
@@ -119,6 +139,7 @@ td.block.headline-block {
 </head>
 
 <body>
+
   <div class="logo-bottom-left">
     <img src="AHV_Siegel_RGB_Gold.png" alt="AHVV Logo">
     <img src="logo_biosiegel_4c_vollflaechig_transparent.png" alt="Bio Siegel">
@@ -132,11 +153,12 @@ td.block.headline-block {
   </div>
 
   <script>
-    fetch('content2.html')
+    fetch('content2.html?v=' + Date.now())
       .then(resp => resp.text())
       .then(html => {
         document.getElementById('content-table').innerHTML = html;
-      });
+     });
   </script>
+
 </body>
 </html>
